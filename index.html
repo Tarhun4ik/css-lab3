@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Задание 1. Трёхколоночный макет</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="task1">
+<div class="site">
+  <header>КНИГУЧКИ</header>
+  <nav class="top-menu">
+    <a href="index.html">Главная</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#authors">Авторы</a>
+    <a href="#contacts">Контакты</a>
+    <a href="#about">О нас</a>
+    <a href="task2.html">Задание 2</a>
+    <a href="task3.html">Задание 3</a>
+  </nav>
+  <aside class="left" id="authors">
+    <h3>Авторы</h3>
+    <p><a href="#king">Стивен Кинг</a></p>
+    <p><a href="#sapkowski">Анджей Сапковский</a></p>
+  </aside>
+  <aside class="right" id="contacts">
+    <h3>Контакты</h3>
+    <p><a href="https://www.chitai-gorod.ru/">Читай-город</a></p>
+    <h3 id="about">О нас</h3>
+    <p>Подборка книг (с читай-города).</p>
+  </aside>
+  <main class="center" id="catalog">
+    <a class="book-tile" id="king" href="https://www.chitai-gorod.ru/product/siyanie-2421774" aria-label="Сияние — перейти на Читай-город">
+      <img src="img/siyanie.jpg" alt="Обложка книги «Сияние»">
+      <span class="book-tooltip">
+        <strong>Сияние</strong>
+        <span class="tile-author">Стивен Кинг</span>
+        <span class="tile-description">Джек Торранс устраивается смотрителем отеля «Оверлук», где его семье предстоит столкнуться с тёмными силами.</span>
+      </span>
+    </a>
+    <a class="book-tile" href="https://www.chitai-gorod.ru/product/zelenaya-milya-2854928" aria-label="Зелёная миля — перейти на Читай-город">
+      <img src="img/zelenaya_milya.jpg" alt="Обложка книги «Зелёная миля»">
+      <span class="book-tooltip">
+        <strong>Зелёная миля</strong>
+        <span class="tile-author">Стивен Кинг</span>
+        <span class="tile-description">История заключённого Джона Коффи и надзирателя Пола Эджкомба в тюремном блоке смертников.</span>
+      </span>
+    </a>
+    <a class="book-tile" href="https://www.chitai-gorod.ru/product/11-22-63-2802700" aria-label="11/22/63 — перейти на Читай-город">
+      <img src="img/11_22_63.jpg" alt="Обложка книги «11/22/63»">
+      <span class="book-tooltip">
+        <strong>11/22/63</strong>
+        <span class="tile-author">Стивен Кинг</span>
+        <span class="tile-description">Учитель получает возможность попасть в прошлое и пытается предотвратить убийство Джона Кеннеди.</span>
+      </span>
+    </a>
+    <a class="book-tile" href="https://www.chitai-gorod.ru/product/nuznye-vesi-3136820" aria-label="Нужные вещи — перейти на Читай-город">
+      <img src="img/nuzhnye_veshchi.jpg" alt="Обложка книги «Нужные вещи»">
+      <span class="book-tooltip">
+        <strong>Нужные вещи</strong>
+        <span class="tile-author">Стивен Кинг</span>
+        <span class="tile-description">В небольшом городке открывается магазин, владелец которого исполняет желания покупателей за необычную плату.</span>
+      </span>
+    </a>
+    <a class="book-tile" id="sapkowski" href="https://www.chitai-gorod.ru/product/poslednee-zelanie-3149880" aria-label="Последнее желание — перейти на Читай-город">
+      <img src="img/poslednee_zhelanie.jpg" alt="Обложка книги «Последнее желание»">
+      <span class="book-tooltip">
+        <strong>Последнее желание</strong>
+        <span class="tile-author">Анджей Сапковский</span>
+        <span class="tile-description">Рассказы о ведьмаке Геральте, который охотится на чудовищ и сталкивается с непростым выбором.</span>
+      </span>
+    </a>
+    <a class="book-tile" href="https://www.chitai-gorod.ru/product/mec-prednaznacenia-3149879" aria-label="Меч Предназначения — перейти на Читай-город">
+      <img src="img/mech_prednaznacheniya.jpg" alt="Обложка книги «Меч Предназначения»">
+      <span class="book-tooltip">
+        <strong>Меч Предназначения</strong>
+        <span class="tile-author">Анджей Сапковский</span>
+        <span class="tile-description">Новые приключения Геральта, встречи с волшебными существами и размышления о судьбе.</span>
+      </span>
+    </a>
+    <a class="book-tile" href="https://www.chitai-gorod.ru/product/krov-elfov-2875624" aria-label="Кровь эльфов — перейти на Читай-город">
+      <img src="img/krov_elfov.jpg" alt="Обложка книги «Кровь эльфов»">
+      <span class="book-tooltip">
+        <strong>Кровь эльфов</strong>
+        <span class="tile-author">Анджей Сапковский</span>
+        <span class="tile-description">После падения Цинтры Геральт защищает Цири, чьи способности привлекают внимание правителей и магов.</span>
+      </span>
+    </a>
+    <a class="book-tile" href="https://www.chitai-gorod.ru/product/vedmak-chas-prezreniya-2784173" aria-label="Ведьмак. Час Презрения — перейти на Читай-город">
+      <img src="img/chas_prezreniya.jpg" alt="Обложка книги «Ведьмак. Час Презрения»">
+      <span class="book-tooltip">
+        <strong>Ведьмак. Час Презрения</strong>
+        <span class="tile-author">Анджей Сапковский</span>
+        <span class="tile-description">Магические интриги и борьба за власть угрожают Цири, а война всё ближе.</span>
+      </span>
+    </a>
+  </main>
+</div>
+</body>
+</html>
